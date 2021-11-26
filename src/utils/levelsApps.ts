@@ -1,5 +1,5 @@
 export const beginner = [
-  { id: "1", name: "Bin2Dec1" },
+  { id: "1", name: "Bin 2 Dec" },
   { id: "2", name: "Border Radius Previewer" },
   { id: "3", name: "Calculator" },
   { id: "4", name: "Christmas Lights" },

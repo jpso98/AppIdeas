@@ -8,6 +8,7 @@ export default {
     shape: "#D6CBCB",
 
     text: "#fff",
+    text_dark: "#000",
   },
 
   fonts: {

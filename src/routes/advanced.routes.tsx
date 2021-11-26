@@ -9,7 +9,6 @@ export function AdvancedRoutes() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Advanced" component={Advanced} />
-      {/* <Stack.Screen name="Screennn" component={} /> */}
     </Stack.Navigator>
   );
 }

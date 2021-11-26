@@ -5,7 +5,8 @@ import theme from "../../global/styles/theme";
 
 import { Button } from "../../components/Button";
 
-import { Container, Title } from "./styles";
+import { Container } from "./styles";
+import { Title } from "../Title";
 
 interface DataProps {
   id: string;
@@ -20,7 +21,7 @@ interface Props {
 export function HomePage({ title, data }: Props) {
   return (
     <Container colors={[theme.colors.primary, theme.colors.primary_dark]}>
-      <Title>{title}</Title>
+      <Title title={title} />
 
       <FlatList
         keyExtractor={(item) => item.id}
